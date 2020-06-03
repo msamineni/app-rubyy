@@ -7,17 +7,17 @@
   "addons": [
     "heroku-postgresql",
     {
-      "plan": "hobby-dev",
+      "plan": "heroku-postgresql:hobby-dev",
       "as": "postgres"
     },
     "papertrail",
     {
-      "plan": "choklad",
+      "plan": "papertrail:choklad",
       "as": "Papertrail"
     },
     "newrelic",
     {
-      "plan": "wayne",
+      "plan": "newrelic:wayne",
       "as": "newrelic"
     }
   ]
