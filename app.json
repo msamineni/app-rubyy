@@ -4,21 +4,5 @@
   "image": "heroku/ruby",
   "repository": "https://github.com/heroku/ruby-getting-started",
   "keywords": ["ruby", "rails" ],
-  "addons": [
-    "heroku-postgresql",
-    {
-      "plan": "heroku-postgresql:hobby-dev",
-      "as": "postgres"
-    },
-    "papertrail",
-    {
-      "plan": "papertrail:choklad",
-      "as": "Papertrail"
-    },
-    "newrelic",
-    {
-      "plan": "newrelic:wayne",
-      "as": "newrelic"
-    }
-  ]
+  "addons": ["heroku-postgresql:hobby-dev", "papertrail:choklad", "newrelic:wayne"]
 }
