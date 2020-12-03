@@ -4,5 +4,15 @@
   "image": "heroku/ruby",
   "repository": "https://github.com/heroku/ruby-getting-started",
   "keywords": ["ruby", "rails" ],
-  "addons": ["heroku-postgresql:hobby-dev" ]
+  "addons": ["heroku-postgresql:hobby-dev" ],
+    "env": {
+    "SECRET_TOKEN": {
+      "description": "A secret key for verifying the integrity of signed cookies.",
+      "value": "oirnwf"
+    },
+    "WEB_CONCURRENCY": {
+      "description": "The number of processes to run.",
+      "value": "5"
+    }
+  }
 }
