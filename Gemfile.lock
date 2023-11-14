@@ -185,7 +185,7 @@ DEPENDENCIES
   listen
   pg (~> 0.21)
   puma
-  rails (~> 5.2.0)
+  rails (~> 5.2.8.1)
   sass-rails
   sdoc
   spring
