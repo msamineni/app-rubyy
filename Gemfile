@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '3.1.3'
+ruby '3.0.3'
 
 #gem 'cowsay'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
@@ -40,4 +40,3 @@ gem 'puma'
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
-
