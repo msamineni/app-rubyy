@@ -84,6 +84,7 @@ GEM
     marcel (1.0.2)
     method_source (1.0.0)
     mini_mime (1.1.5)
+    mini_portile2 (2.8.5)
     minitest (5.20.0)
     msgpack (1.7.2)
     net-imap (0.3.7)
@@ -96,10 +97,10 @@ GEM
     net-smtp (0.4.0)
       net-protocol
     nio4r (2.5.9)
-    nokogiri (1.13.10-arm64-darwin)
+    nokogiri (1.13.10)
+      mini_portile2 (~> 2.8.0)
       racc (~> 1.4)
     pg (0.21.0)
-    psych (3.3.4)
     puma (6.4.0)
       nio4r (~> 2.0)
     racc (1.7.3)
@@ -173,15 +174,16 @@ GEM
 
 PLATFORMS
   arm64-darwin-23
+  x86_64-linux
 
 DEPENDENCIES
   bootsnap
+  bundler (>= 2.3.25)
   coffee-rails
   jbuilder
   jquery-rails
   listen
-  pg (~> 0.18)
-  psych (~> 3.3)
+  pg (~> 0.21)
   puma
   rails (~> 5.2.0)
   sass-rails
