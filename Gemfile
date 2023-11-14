@@ -16,6 +16,7 @@ gem 'coffee-rails'
 # gem 'therubyracer',  platforms: :ruby
 gem 'bootsnap', require: false
 gem 'listen'
+gem 'bundler', '>= 2.3.25'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
