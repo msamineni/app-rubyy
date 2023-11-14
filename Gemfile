@@ -1,11 +1,11 @@
 source 'https://rubygems.org'
-ruby '3.0.3'
+ruby '3.2.2'
 
 #gem 'cowsay'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '5.2.8.1'
 # Use postgresql as the database for Active Record
-gem 'pg', '~> 0.21'
+gem 'pg', '~> 1.5.4'
 # Use SCSS for stylesheets
 gem 'sass-rails'
 # Use Uglifier as compressor for JavaScript assets
