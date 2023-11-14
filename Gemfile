@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '>= 2.6.0'
+ruby '3.2.2'
 
 #gem 'cowsay'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
