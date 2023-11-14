@@ -195,6 +195,7 @@ DEPENDENCIES
   sass-rails
   sdoc
   spring
+  sprockets-rails (~> 3.2)
   turbolinks
   uglifier
 
