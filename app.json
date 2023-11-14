@@ -1,7 +1,7 @@
 {
   "name": "Start on Heroku: Ruby",
   "description": "A barebones Rails app, which can easily be deployed to Heroku",
-  "image": "heroku/ruby",
+  "image": "heroku/nodejs", "heroku/ruby",
   "repository": "https://github.com/heroku/ruby-getting-started",
   "keywords": ["ruby", "rails" ],
   "addons": ["heroku-postgresql:basic", "papertrail:choklad", "newrelic:wayne" ]
